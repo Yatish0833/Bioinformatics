@@ -2,8 +2,6 @@
 use strict;
 use warnings;
 use feature qw(say);
-use lib '/Users/Yatish/Desktop/Fall 2015/Programming/codes/final';
-use lib '/usr/local/ActivePerl-5.20/site/lib';
 use Test::More tests => 70; #change to the number of test you are going to do
 use BioIO::SeqIO;# ':ALL'; #bring in subs if this was a module, here its Moose, no need
 use BioIO::Seq;# ':ALL'; #bring in subs if this was a module, here its Moose, no need
@@ -18,11 +16,12 @@ my $seqIoObj = BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'genbank')
 dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'junk')} '... dies when bad fileType sent to the BioIO::SeqIO constructor';
 dies_ok {BioIO::SeqIO->new(filename => $fileNameIn)} '... dies when no fileType sent to the BioIO::SeqIO constructor';
 dies_ok {BioIO::SeqIO->new(fileType => 'fasta')} '... dies when no filename sent to the BioIO::SeqIO constructor';
-dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', _gi => [])} '... dies when _gi sent to BioIO::SeqIO constructor';
+dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _gi => [])} '... dies when _gi sent to BioIO::SeqIO constructor';
 dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _seq => {})} '... dies when _seq sent to BioIO::SeqIO constructor';
 dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _def => {})} '... dies when _def sent to BioIO::SeqIO constructor';
-dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _accn => {})} '... dies when _accn sent to BioIO::SeqIO constructor';
+dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _acc => {})} '... dies when _acc sent to BioIO::SeqIO constructor';
 dies_ok {BioIO::SeqIO->new(filename => $fileNameIn, fileType => 'fasta', => _current => 1)} '... dies when _current sent to BioIO::SeqIO constructor';
+
 
 # Added new dies_ok
 foreach my $method (qw/_gi _current _acc _def _seq filename fileType/ ){
@@ -69,6 +68,9 @@ while (my $seqObj = $seqIoObj->nextSeq() ) {
         is '172073148', $seqObj->gi, 'The gi\'s are the same for NP_001103242.1';
         is 'NP_001103242.1', $seqObj->accn, 'The accn\'s are the same for NP_001103242.1';
         is 'insulin [Sus scrofa]', $seqObj->def, 'def\'s are the same for NP_001103242.1';
+    }
+    else{
+        die "Did you parse the accession with a version in your accn method?... dying";
     }
 }
 
@@ -143,6 +145,7 @@ is 70, length $compareSeq, "Found the right length sequence for default (70)";
 dies_ok{$seqObj6->writeFasta()} '... writeFasta dies when not the right number of parameters are passed in';
 dies_ok{$seqObj6->writeFasta($fileOutName, 60, 1)} '... writeFasta dies when not the right number of parameters are passed in';
 unlink $fileOutName;
+
 
 
 

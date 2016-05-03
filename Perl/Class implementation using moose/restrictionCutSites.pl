@@ -15,8 +15,8 @@ use Data::Dumper;
 ## History:  Dec 8, 2015(Yatish) - Written the code structure and logic
 ##                  
 #########################################################################
-##
-## 
+## This program takes in a fasta file and finds the cut site of restriction
+## enzymes in coding region.
 ########################################################################## 
 ## Sample execution line
 ## perl restrictionCutSites.pl -file p53_seq.txt
@@ -68,11 +68,11 @@ while ( my $seqObjLong = $seqIoObj->nextSeq() ) {
      }
      ($pos, $sequence) = $seqObjShort->checkCutSite( 'CGRYCG' ); #BsiEI
      if(!defined($pos)){
-     	printFailedResult($seqObjShort,'BamH1')
+     	printFailedResult($seqObjShort,'BsiEI')
      }else{
      	printResults($pos, $sequence, $seqObjShort, 'BsiEI');
      }
-     ($pos, $sequence) = $seqObjShort->checkCutSite( 'GACNNNNNNGTC' );#DrdI 
+     ($pos, $sequence) = $seqObjShort->checkCutSite( 'GACNNNNNNGTC');#DrdI 
      if(!defined($pos)){
      	printFailedResult($seqObjShort,'BamH1')
      }else{
@@ -81,6 +81,12 @@ while ( my $seqObjLong = $seqIoObj->nextSeq() ) {
      
 }
 
+
+###############################################################################
+#Void Context : printResults($pos, $sequence, $seqObjShort, 'BamH1')
+##############################################################################
+# Takes in 4 arguments and prints the output to the screen
+# ###########################################################################
 sub printResults{
 	my ($pos,$seq,$seqObj,$re)=@_;
 	my $filledUsage = 'Usage: ' . (caller(0))[3] . '($pos,$seq,$seqObj,$re)';
@@ -91,11 +97,16 @@ sub printResults{
 	
 }
 
+###############################################################################
+##Void Context : printFailedResult($seqObjShort,'BamH1')
+###############################################################################
+## Takes in 2 arguments and prints the output to the screen
+## ###########################################################################
 sub printFailedResult{
 	my ($seqObj,$re)=@_;
 	my $filledUsage = 'Usage: ' . (caller(0))[3] . '($seqObj,$re)';
     @_ == 2 or confess getErrorString4WrongNumberArguments(), $filledUsage;
     
 	say ("\nThe gene gi",$seqObj->gi(),": ");
-	say ($re,"was not found in the coding region");
+	say ($re," was not found in the coding region");
 }

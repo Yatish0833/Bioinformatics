@@ -97,13 +97,13 @@ sub checkCutSite{
 	my $origPattern = $pattern;
 	my $matchedSeq;
 	
-	if($pattern=~/r/ig ){
-		$pattern=~s/r/[A|G]/ig;	
+	if($pattern=~/r/ig){
+		$pattern=~s/r/[A|G]/ig;
 	}
-	if($pattern=~/y/ig ){
+	if($pattern=~/y/ig){
 		$pattern=~s/y/[C|T]/ig;
 	}
-	if($pattern=~/n/ig ){
+	if($pattern=~/n/ig){
 		$pattern=~s/n/[A|T|G|C]/ig;
 	}
 	
@@ -111,7 +111,7 @@ sub checkCutSite{
 	my $seq = $self->seq;
 	
 	my $position;
-	if($seq=~/$pattern/ig){
+	if($seq=~/$pattern/ig ){
 		$position = ($-[0]+1);
 		$matchedSeq =$&;
 		#$matchedSeq = substr $seq,$position-1,length($origPattern);
@@ -122,4 +122,51 @@ sub checkCutSite{
 		return(undef,undef);
 	}
 }			
-1;			
+1;	
+
+=head1 Seq
+
+Seq: objects for seqquences with 4 attributes that are required. gi, seq, def, accn.
+
+=head1 Synopsis
+
+	my $seqIoObj = BioIO::SeqIO->new(filename => $infile, fileType => 'fasta'); # object creation
+
+
+	# loop through all seqs in $seqIoObj
+	 while ( my $seqObjLong = $seqIoObj->nextSeq() ) {
+	    my $seqObjShort = $seqObjLong->subSeq( $begin, $end );    # sub sequence
+       
+            # check if the coding seq is valid
+            if( $seqObjShort->checkCoding()) {
+                   print"The sequence starts with ATG codon and ends with a stop codon\n";
+             }
+              else{
+                   print "This is not a coding region"
+             }
+                   	                       
+             # check the cutting sites
+             my ($pos, $sequence) = $seqObjShort->checkCutSite( 'GGATCC' ); #BamH1
+             if(!defined($pos)){
+            	printFailedResult($seqObjShort,'BamH1')
+             }else{
+             	printResults($pos, $sequence, $seqObjShort, 'BamH1'); # you should implement the printResults subroutine	
+             }
+             ($pos, $sequence) = $seqObjShort->checkCutSite( 'CGRYCG' ); #BsiEI 
+              if(!defined($pos)){
+              	printFailedResult($seqObjShort,'BamH1')
+              }else{
+              	printResults($pos, $sequence, $seqObjShort, 'BsiEI');
+              }
+              ($pos, $sequence) = $seqObjShort->checkCutSite( 'GACNNNNNNGTC' );#DrdI 
+              if(!defined($pos)){
+               	printFailedResult($seqObjShort,'BamH1')
+              }else{
+            	printResults($pos, $sequence, $seqObjShort, 'DrdI');
+              }            	
+ 	}
+
+=head1 Author
+
+	Yatish
+=cut		

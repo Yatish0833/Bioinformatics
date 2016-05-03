@@ -14,8 +14,8 @@ use Data::Dumper;
 ## History:  Dec 8, 2015(Yatish) - Written the code structure and logic
 ##                  
 #########################################################################
-##
-## 
+## This program takes a file of genbank sequence/s and convert them into
+## fasta files.
 ########################################################################## 
 ## Sample execution line
 ## perl genBank2Fasta.pl -file genbank_seq.txt
@@ -43,7 +43,7 @@ if (!defined($infile)) {
 }
 
 
-my $seqIoObj = BioIO::SeqIO->new(filename => $infile , fileType => 'genbank' ); # object creation
+my $seqIoObj = BioIO::SeqIO->new(filename => $infile , fileType => 'genbank', => _gi => []); # object creation
 
 my $output = "OUTPUT";
 # go thru SeqIO obj and print all seq

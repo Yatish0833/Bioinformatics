@@ -1,8 +1,8 @@
 package BioIO::SeqIO;
 use Moose;
 use Carp;
-use lib '/Users/Yatish/Desktop/Fall 2015/Programming/codes/final';
-use lib '/usr/local/ActivePerl-5.20/site/lib';
+#use lib '/Users/Yatish/Desktop/Fall 2015/Programming/codes/final';
+#use lib '/usr/local/ActivePerl-5.20/site/lib';
 use BioIO::MyIO qw(getFh);
 use BioIO::Seq;
 use BioIO::Config qw(getErrorString4WrongNumberArguments);
@@ -13,43 +13,43 @@ use namespace::autoclean;
 #Attributes
 has '_gi' => (
 			isa => 'ArrayRef',
-            is => 'ro',
+	                is => 'ro',
 			writer => '_writer_gi',
 			init_arg => undef,
 			);
 has '_seq' => (
 			isa => 'HashRef',
-            is => 'ro',
+            		is => 'ro',
 			writer => '_writer_seq',
 			init_arg => undef,
 			);
 has '_def' => (
 			isa => 'HashRef',
-            is => 'ro',
+        	    	is => 'ro',
 			writer => '_writer_def',
 			init_arg => undef,
 			);
 has '_accn' => (
 			isa => 'HashRef',
-            is => 'ro',
+            		is => 'ro',
 			writer => '_writer_accn',
 			init_arg => undef,
 			);
 has '_current' => (
 			isa => 'Int',
-            is => 'ro',
+            		is => 'ro',
 			writer => '_writer_current',
 			default => 0,
 			init_arg => undef,
 			);
 has 'filename' => (
 			isa => 'Str',
-            is => 'ro',
+            		is => 'ro',
 			required => 1,
 			);			
 has 'fileType' => (
 			isa => FileType,
-            is => 'ro',
+            		is => 'ro',
 			required => 1,
 			);				
 
@@ -135,9 +135,9 @@ sub _getFastaSeqs{
     	}		
 	}
 	#if ($tempSeq ne "") { 
-    #      $seq{$gi} = $tempSeq;
-    #      $tempSeq = ""; 
-    #} 
+        #  $seq{$gi} = $tempSeq;
+        #  $tempSeq = ""; 
+   # } 
  
 	$self->_writer_gi(\@giArr);
 	$self->_writer_accn(\%accns);
@@ -196,3 +196,24 @@ sub BUILD{
 
 
 1;
+
+=head1 SeqIO
+
+SeqIO: objects with filename and filetype as required arguments. Other attributes are inaccesible to user via API.
+
+=head1 Synopsis
+
+	use BioIO::SeqIO
+	my $seqIoObj = BioIO::SeqIO->new(filename => $infile , fileType => 'genbank' ); # object creation
+	
+	my $output = "OUTPUT";
+	# go thru SeqIO obj and print all seq
+	while (my $seqObj = $seqIoObj->nextSeq() ) {
+	    my $fileNameOut = $output . '/' . $seqObj->accn . ".fasta"; #create an output name
+	     $seqObj->writeFasta( $fileNameOut);    # write the Fasta File
+       }
+
+=head1 Author
+	
+	Yatish
+=cut
