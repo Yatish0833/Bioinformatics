@@ -1,0 +1,47 @@
+ERK	elk-related Tyrosine kinase	1p36.1	176946	
+EPHT3, DRT	eph tyrosine kinase 3	1p36.1-p35	600997	
+LCK	Lymphocyte-specific protein TYROSINE kinase	1p35-p34.3	153390	
+TIE, JTK14, TIE1	Tyrosine kinase with immunoglobulin and epidermal growth factor	1p34-p33	600222	
+JAK1	Janus kinase 1 (a protein-Tyrosine kinase)	1p31.3	147795	
+NTRKR3	Tyrosine kinase receptor related to neurotrophic TRK	1q12-qter	191311	
+EPLG1, TNFAIP4	eph-related receptor tyrosine kinase ligand 1 (tumor necrosis factor,	1q21-q22	191164	
+EPLG3	eph-related receptor tyrosine kinase ligand 3	1q21-q22	601381	
+EPLG4	eph-related receptor TYROSINE kinase ligand 4	1q21-q22	601380	
+NTRK1, TRKA	Neurotrophic tyrosine kinase, receptor, type 1	1q21-q22	191315	
+EEK	eph-, elk-related Tyrosine kinase	Chr.1	176945	
+ZAP70	Protein Tyrosine kinase ZAP-70 (zeta-associated protein 70kD)	2q12	176947	
+MST1R, RON	Macrophage stimulating 1 receptor (c-met-related TYROSINE kinase)	3p21.3	600168	
+ETK1, HEK	eph-like Tyrosine kinase 1 (human embryo kinase 1)	3p11.2	179611	
+NCK	NCK tyrosine kinase	3q21	600508	
+EPHT2, NET	eph tyrosine kinase 2	3q21-q23	600905	
+EPHB3, ETK2	EPH-like tyrosine kinase-2	3q21-qter	601839	
+TEC	tec protein tyrosine kinase	4p12	600583	
+TXK, BTKL	TXK TYROSIne kinase	4p12	600058	
+FER, TYK3	fer (fps/fes related) tyrosine kinase	5q21-q22	176942	
+ITK, EMT	T-cell-specific tyrosine kinase; homolog of mouse T-cell itk/tsk	5q32	186973	
+FLT4	fms-related tyrosine kinase 4	5q34-q35	136352	
+NEP	Neuroepithelial tyrosine kinase	6p21.3	600408	
+PTK7	PTK7 protein tyrosine kinase 7	6p21.1-p12.2	601890	
+NTRK4	Neurotrophic TYROsine kinase, receptor, type 4	6p21	601312	
+EPHT1	eph tyrosine kinase 1 (erythropoietin-producing hepatoma amplified	7q32-q36	179610	
+BLK	BLK nonreceptor tyrosine kinase	8p23-p22	191305	
+FGFR1, FLT2	Fibroblast growth factor receptor-1 (fms-related tyrosine kinase-2)	8p11.2-p11.1	136350	
+PTK2, FADK	PTK2 protein tyrosine kinase	8q24-qter	600500	
+JAK2	Janus kinase 2 (a protein-tyrosine kinase)	9p24	147796	
+TEK, TIE2, VMCM	TEK tyrosine kinase, endothelial	9p21	600221	
+SYK	Spleen tyrosine kinase	9q22	600085	
+NTRK2, TRKB	Neurotrophic tyrosine kinase, receptor, type 2	9q22.1	600456	
+MUSK	Receptor tyrosine kinase MuSK	9q31.3-q32	601296	
+FLT1	fms-related tyrosine kinase 1 (vascular endothelial growth	13q12	165070	
+FLT3	fms-related tyrosine kinase-3	13q12	136351	
+EPLG5, LERK5	eph-related receptor tyrosine kinase ligand 5	13q33	600527	
+LTK, TYK1	Leukocyte tyrosine kinase	15q15.1-q21.1	151520	
+TYRO3	TYRO3 protein tyrosine kinase	15q15.1-q21.1	600341	
+CSK	c-src tyrosine kinase	15q23-q25	124095	
+NTRK3, TRKC	Neurotrophic tyrosine kinase, receptor, type 3	15q25	191316	
+JAK3	Janus kinase 3 (a protein tyrosine kinase, leukocyte)	19p13.1	600173	
+AXL	AXL transforming sequence (a receptor tyrosine kinase)	19q13.1-q13.2	109135	
+MNBH, MNB, DYRK	\'minibrain\' (Drosophila) homolog (dual specificity tyrosine	21q22.1	600855	
+BMX	BMX non-receptor tyrosine kinase	Xp22.2	300101	
+EPLG2	eph-related receptor tyrosine kinase ligand 2	Xq12	300035	
+BTK, AGMX1, IMD1, XLA, AT	Bruton agammaglobulinemia tyrosine kinase	Xq21.3-q22	300300	

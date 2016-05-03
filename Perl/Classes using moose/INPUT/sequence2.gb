@@ -1,0 +1,443 @@
+LOCUS       GU550268                 200 bp    DNA     linear   INV 19-NOV-2010
+DEFINITION  Melaloncha pilula 28S ribosomal RNA gene, partial sequence.
+ACCESSION   GU550268
+VERSION     GU550268.1  GI:290793767
+KEYWORDS    .
+SOURCE      Melaloncha pilula
+  ORGANISM  Melaloncha pilula
+            Eukaryota; Metazoa; Arthropoda; Hexapoda; Insecta; Pterygota;
+            Neoptera; Endopterygota; Diptera; Brachycera; Muscomorpha;
+            Platypezoidea; Phoridae; Metopinini; Melaloncha.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Brown,B.V. and Smith,P.T.
+  TITLE     The bee-killing flies, genus Melaloncha Brues (Diptera: Phoridae):
+            a combined molecular and morphological phylogeny
+  JOURNAL   Syst. Entomol. 35 (4), 649-657 (2010)
+REFERENCE   2  (bases 1 to 200)
+  AUTHORS   Brown,B.V. and Smith,P.T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-JAN-2010) Entomology, Natural History Museum of Los
+            Angeles County, 900 Exposition Boulevard, Los Angeles, CA 90007,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Melaloncha pilula"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:462013"
+     rRNA            <1..>200
+                     /product="28S ribosomal RNA"
+ORIGIN      
+        1 ccatataagg acattgtaat ctgttaatgt ttaaatgcgt attataagat cttttacaat
+       61 agtttattca ttatttaatt tattaaatat gattaaatgt gaaagtttcg aatatgccat
+      121 tgacagattt ttatatatat tgtacttaaa tctttttgga ttttataata atataattat
+      181 cgtagatttt tatatttatt
+//
+
+LOCUS       HQ097973                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Thauera sp. clone F5OHPNU07H5J9X 16S ribosomal RNA gene,
+            partial sequence.
+ACCESSION   HQ097973
+VERSION     HQ097973.1  GI:310412349
+KEYWORDS    ENV.
+SOURCE      uncultured Brachymonas sp.
+  ORGANISM  uncultured Brachymonas sp.
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Comamonadaceae; Brachymonas; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Brachymonas sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 512"
+                     /isolation_source="tailing pound 55 ft"
+                     /db_xref="taxon:349918"
+                     /clone="F5OHPNU07H5J9X"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gtcaagtcct catggccctt atagtggggc tacacacgtc atacaatggc cggtacagag
+       61 ggtagccaac ccgcgagggg gaggccaatc ccacaaagcc ggtccgtagt ccggatcgca
+      121 gtctgcaact cgactgcgtg aagtcggaat cgctagtaat cgcggatcag catgtcgcgg
+      181 tgaatacgtt cccgggtctt
+//
+
+LOCUS       HQ097526                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Pelobacter sp. clone F5OHPNU07HVPTQ 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ097526
+VERSION     HQ097526.1  GI:310411902
+KEYWORDS    ENV.
+SOURCE      uncultured Brachymonas sp.
+  ORGANISM  uncultured Brachymonas sp.
+            Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales;
+            Comamonadaceae; Brachymonas; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Brachymonas sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 512"
+                     /isolation_source="tailing pound 55 ft"
+                     /db_xref="taxon:349918"
+                     /clone="F5OHPNU07HVPTQ"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 aagtcctcat ggcccttata ggtggggcta cacacgtcat acgaatggcc ggtacagagg
+       61 gtagccaacc cgcgaggggg agaccaatcc cacaaagccg gtcgtagtcc ggatcgcagt
+      121 ctgcaactcg actgcgtgaa gtcggaatcg ctagtaatcg cggatcagca tgtcgcggtg
+      181 aataccggtt cccgggtctt
+//
+
+LOCUS       HQ096460                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Acidovorax sp. clone F5OHPNU07H9SUW 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ096460
+VERSION     HQ096460.1  GI:310410836
+KEYWORDS    ENV.
+SOURCE      uncultured Anaerolinaceae bacterium
+  ORGANISM  uncultured Anaerolinaceae bacterium
+            Bacteria; Chloroflexi; Anaerolineae; Anaerolineales;
+            Anaerolineaceae; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Anaerolinaceae bacterium"
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 512"
+                     /isolation_source="tailing pound 55 ft"
+                     /db_xref="taxon:310067"
+                     /clone="F5OHPNU07H9SUW"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 tcaagtcagc atggccttta tatcctgggc tacacacacg ctacaatggg aagggacaat
+       61 aggttgcgaa gccgcaggcg gagccaatcc agcaaaaact tccctcagtt cagattgcag
+      121 gccgcaactc gcctgcatga agttggagtt gctagtaaac gcaggtcagc catactgcgt
+      181 tgaatacgtt cccggggctt
+//
+
+LOCUS       HQ090710                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Leptolinea sp. clone F5OHPNU07H9Y3U 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ090710
+VERSION     HQ090710.1  GI:310401077
+KEYWORDS    ENV.
+SOURCE      uncultured Leptolinea sp.
+  ORGANISM  uncultured Leptolinea sp.
+            Bacteria; Chloroflexi; Anaerolineae; Anaerolineales;
+            Anaerolineaceae; Leptolinea; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Leptolinea sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:904068"
+                     /clone="F5OHPNU07H9Y3U"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gtcaagtcag catgccttta tgtcctgggc tacacacacg ctacaatggt cagcacaatg
+       61 gtcgctaagc cgcaaggtgg agccaatcct caaagttggc ctcagttcag attgtaggcg
+      121 tgcaactacc gcctgcatga agatggagtt gctagtaaac gcaggtcagc tatactgcgt
+      181 tgaatacgtt cccggggctt
+//
+
+LOCUS       HQ090535                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Nitratiruptor sp. clone F5OHPNU07IDVMJ 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ090535
+VERSION     HQ090535.1  GI:310400901
+KEYWORDS    ENV.
+SOURCE      uncultured Nitratiruptor sp.
+  ORGANISM  uncultured Nitratiruptor sp.
+            Bacteria; Proteobacteria; Epsilonproteobacteria; Nitratiruptor;
+            environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Nitratiruptor sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:905027"
+                     /clone="F5OHPNU07IDVMJ"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gacgtcaagt catcatggcc ttatgcctgg gcgacacacg tgctacaatg gataggacag
+       61 aaagacgcaa gaccgcgagg tggagcaaat ctttaaacct attctcagtt cggattggag
+      121 tctgcaactc gactccatga agctggaatc gctagtaatc gcggatcagc catgccgcgg
+      181 tgaatacgtt cccgggtctt
+//
+
+LOCUS       HQ090230                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Streptococcus sp. clone F5OHPNU07H5H6I 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ090230
+VERSION     HQ090230.1  GI:310400596
+KEYWORDS    ENV.
+SOURCE      uncultured Streptococcus sp.
+  ORGANISM  uncultured Streptococcus sp.
+            Bacteria; Firmicutes; Lactobacillales; Streptococcaceae;
+            Streptococcus; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Streptococcus sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:83427"
+                     /clone="F5OHPNU07H5H6I"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 cgtcaaatca tcatgcccct tatgacctgg gctacacacg tgctacaatg gttggtacaa
+       61 cgagttgcga gtcggtgacg gcgagctaat ctcttaaagc caatctcagt tcggattgta
+      121 ggctgcaact cgcctacatg aagtcggaat cgctagtaat cgcggatcag cacgccgcgg
+      181 tgaatacgtt cccgggcctt
+//
+
+LOCUS       HQ090121                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Streptococcus sp. clone F5OHPNU07IDNO9 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ090121
+VERSION     HQ090121.1  GI:310400486
+KEYWORDS    ENV.
+SOURCE      uncultured Streptococcus sp.
+  ORGANISM  uncultured Streptococcus sp.
+            Bacteria; Firmicutes; Lactobacillales; Streptococcaceae;
+            Streptococcus; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Streptococcus sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:83427"
+                     /clone="F5OHPNU07IDNO9"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 tgacgtcaat catcatgccc ttatgacctg gctacacacg tgctacaatg gttggtacaa
+       61 cgagttgcga gtcggtgacg gcgagctaat ctcttaaagc caatctcagt tcggattgta
+      121 ggctgcaact cgcctacatg aagtcggaat cgctagtaat cgcggatcag cacgccgcgg
+      181 tgaatacgtt cccgggcctt
+//
+
+LOCUS       HQ089574                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Anaerolinaceae bacterium clone F5OHPNU07ID6UX 16S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   HQ089574
+VERSION     HQ089574.1  GI:310399937
+KEYWORDS    ENV.
+SOURCE      uncultured Anaerolinaceae bacterium
+  ORGANISM  uncultured Anaerolinaceae bacterium
+            Bacteria; Chloroflexi; Anaerolineae; Anaerolineales;
+            Anaerolineaceae; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Anaerolinaceae bacterium"
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:310067"
+                     /clone="F5OHPNU07ID6UX"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 cgtcaagtca gcatgacctt tgtatccagg gctacacaca cgctacaatg gtctgtacaa
+       61 tgggtagcca agccgcgagg cggagccaat cctgaaagca ggcctcagtt cagattgcag
+      121 tctgcaactc gactgcatga agccggagtt gctagtaacc gcaggtcagc aatactgcgg
+      181 tgaatacgtt cccgggtctt
+//
+
+LOCUS       HQ088199                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Thiobacillus sp. clone F5OHPNU07H2XK1 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ088199
+VERSION     HQ088199.1  GI:310396556
+KEYWORDS    ENV.
+SOURCE      uncultured Thiobacillus sp.
+  ORGANISM  uncultured Thiobacillus sp.
+            Bacteria; Proteobacteria; Betaproteobacteria; Hydrogenophilales;
+            Hydrogenophilaceae; Thiobacillus; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Thiobacillus sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:189996"
+                     /clone="F5OHPNU07H2XK1"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 gtacaagtcc tcatggccct tatgggtagg gcttcacacg tcatacaatg gtcggtacag
+       61 agggttgcca agccgcgagg cggagccaat cccacaaagc cgatcgtagt ccggattgtt
+      121 ctctgcaact cgagagcatg aagtcggaat cgctagtaat cgcaggtcag catactgcgg
+      181 tgaatacgtt cccgggtctt
+//
+
+LOCUS       HQ085677                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Thiobacillus sp. clone F5OHPNU07HUE2C 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ085677
+VERSION     HQ085677.1  GI:310394028
+KEYWORDS    ENV.
+SOURCE      uncultured Thiobacillus sp.
+  ORGANISM  uncultured Thiobacillus sp.
+            Bacteria; Proteobacteria; Betaproteobacteria; Hydrogenophilales;
+            Hydrogenophilaceae; Thiobacillus; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Thiobacillus sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 511"
+                     /isolation_source="tailing pound 45 ft"
+                     /db_xref="taxon:189996"
+                     /clone="F5OHPNU07HUE2C"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 cgtcaagtcc tcatggccct tatgggtagg gcttcacacg tcatacaatg gtcggtacag
+       61 agggttgcca agccgcgagg cggagccaat cccacaaagc cgatcgtagt ccggattgtt
+      121 ctctgcaact cgagagcatg aagtcggaat cgctagtaat cgcaggtcag catactgcgg
+      181 tgaatacgtt cccgggtctt
+//
+
+LOCUS       HQ084461                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Smithella sp. clone F5OHPNU07INW96 16S ribosomal RNA
+            gene, partial sequence.
+ACCESSION   HQ084461
+VERSION     HQ084461.1  GI:310390793
+KEYWORDS    ENV.
+SOURCE      uncultured Smithella sp.
+  ORGANISM  uncultured Smithella sp.
+            Bacteria; Proteobacteria; Deltaproteobacteria; Syntrophobacterales;
+            Syntrophaceae; Smithella; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Smithella sp."
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 510"
+                     /isolation_source="tailing pound 40 ft"
+                     /db_xref="taxon:282196"
+                     /clone="F5OHPNU07INW96"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 acgtcaagtc ctcatggctt tatgcttagg gctacacacg tgctacaatg ggtggtacaa
+       61 agagaagcca actcgcgaga gcgcgccaat ctcaaaaagc catcctcagt tcggattgga
+      121 gtctgcaact cgactccatg aagttggaat cgctagtaat cgcggatcag catgccgcgg
+      181 tgaatacgtt cccgggcctt
+//
+
+LOCUS       HQ084002                 200 bp    DNA     linear   ENV 18-NOV-2010
+DEFINITION  Uncultured Enterobacteriaceae bacterium clone F5OHPNU07H7INL 16S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   HQ084002
+VERSION     HQ084002.1  GI:310390330
+KEYWORDS    ENV.
+SOURCE      uncultured Enterobacteriaceae bacterium
+  ORGANISM  uncultured Enterobacteriaceae bacterium
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; environmental samples.
+REFERENCE   1  (bases 1 to 200)
+  AUTHORS   Ramos-Padron,E., Bordenave,S., Lin,S., Mani Bhaskar,I., Dong,X.,
+            Sensen,C.W., Fournier,J., Voordouw,G. and Gieg,L.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (02-AUG-2010) Biological Sciences, University of Calgary,
+            2500 University Drive NW, Calgary, Alberta T2N 1N4, Canada
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="uncultured Enterobacteriaceae bacterium"
+                     /mol_type="genomic DNA"
+                     /isolate="PCR amplicon 510"
+                     /isolation_source="tailing pound 40 ft"
+                     /db_xref="taxon:218034"
+                     /clone="F5OHPNU07H7INL"
+                     /environmental_sample
+     rRNA            <1..>200
+                     /product="16S ribosomal RNA"
+ORIGIN      
+        1 acgtcaagtc atcatggccc ttacgaccag ggctacacac gtgctacaat ggcgcataca
+       61 aagagaagcg acctcgcgag agcaagcgga cctcataagt gcgtcgtagt ccggattgga
+      121 gtctgcaact cgactccatg aagttggaat cgctagtaat cgcggatcag cacgccgcgg
+      181 tgaatacgtt cccgggcctt
+//
+
