@@ -1,0 +1,190 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>Bioinformatics</title>
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666
+}
+a:active {text-decoration: none}
+a:hover {text-decoration: none}
+-->
+</style>
+<meta name="description" content="Bioinformatics website, gives you information about all the latest tools available for any Bioinformatician">
+<meta name="keywords" content="Bioinformatics, Biotechnology and computer science, online tools for bioinformatics, webservers of bioinformatics, latest trends in Bioinformatics">
+<link href="Images/favicon.png" rel="shortcut icon"/>
+<link href="Style/style2.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.dialog.custom.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div class="container">
+  <div class="header"><img src="Images/header.png" width="950" height="150"  alt="Image not found"/></div>
+  <div class="mainbuttons" >
+  <ul> 
+    <a href="index.html" class="mainbuttons">Overview</a> <a href="aboutus.html">About us</a> <a href="format.html" class="mainbuttons">Format Conversions</a> <a href="workflows.html">Workflows
+    </a> <a href="contactus.html">Contact us </a>
+  </ul>
+  </div>
+   <div style="float:right; width:250px; height:30px;">
+  <input style="padding-top:5px; margin-right:10px;"name="Search" type="search" id="Search" placeholder="Search" title="Search" size="35">
+  </div>
+  <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <div class="content">
+  <h2 style=" margin-left:220px;"> Alignment Tools</h2>
+   <nav class="float">
+    <ul class="annoy">Web Based tools</ul>
+    <h4> Pairwise Alignment </h4>
+    <li><input type="checkbox"><a href="#">Needle - Emboss</a></li>
+    <li><input type="checkbox"><a href="#">Water - Emboss</a></li>
+    <li><input type="checkbox"><a href="#">Alignments</a></li>
+   <li><input type="checkbox"><a href="#">SIM</a></li>
+   <li><input type="checkbox"><a href="#">BLAST 2</a></li>
+     <p>&nbsp;</p>
+   
+   <h4> Multiple Sequence Alignment (MSA) </h4>
+   <li><input type="checkbox"><a href="#">Clustal W2</a></li>
+    <li><input type="checkbox"><a href="#">Clustal Omega</a></li>
+   <li><input type="checkbox"><a href="#">DbClustal</a></li>
+   <li><input type="checkbox"><a href="#">Kalign</a></li>
+   <li><input type="checkbox"><a href="#">MAFFT</a></li>
+   <li><input type="checkbox" ><a href="#">Muscle</a></li>
+   <li><input type="checkbox"><a href="#">Mview</a></li>
+   <li><input type="checkbox"><a href="#">Tcoffee</a></li>
+   <li><input type="checkbox"><a href="#">ABA - A-Bruijn Alignment</a></li>
+    <li><input type="checkbox"><a href="#">DiAlign</a></li>
+   
+   </nav>
+    <nav class="floater">
+    <ul class="annoy">Downloadable tools</ul>
+    <h4> Pairwise Alignment </h4>
+    <li><input type="checkbox"><a href="#">Needle - Emboss</a></li>
+    <li><input type="checkbox"><a href="#">Water - Emboss</a></li>
+    <li><input type="checkbox"><a href="#">BioPerl-dpAlign</a></li>
+    
+    <p>&nbsp;</p>
+   <h4> Multiple Sequence Alignment (MSA) </h4>
+    <li><input type="checkbox"><a href="#">Clustal W2</a></li>
+    <li><input type="checkbox" id="clustal1"><a id="clustal" href="#">Clustal Omega</a></li>
+   	 <li><input type="checkbox"><a href="#">DbClustal</a></li>
+   <li><input type="checkbox"><a href="#">Kalign</a></li>
+   <li><input type="checkbox"><a href="#">MAFFT</a></li>
+   <li><input type="checkbox" id="muscle1"><a id="muscle" href="#">Muscle</a></li>
+   <li><input type="checkbox"><a href="#">Mview</a></li>
+   <li><input type="checkbox"><a href="#">Tcoffee</a></li>
+    <li><input type="checkbox"><a href="#">ABA - A-Bruijn Alignment</a></li>
+    <li><input type="checkbox"><a href="#">Geneious</a></li>
+    <li><input type="checkbox"><a href="#">MSA</a></li>
+    
+    </nav>
+   <nav class="floater1">  
+    <button id="compare" title="compare" disabled style="float:left; margin: 50px 50px 50px 40px; padding:10px 10px 10px 10px; ">Compare</button>
+
+<div id	="discussion">
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p style=" text-decoration: underline; margin:20px 20px 20px 20px;"> Discussion Board</p>
+<textarea style="width:200px; height:100px;margin:20px 0px 20px 0px;"></textarea>
+<input type="text" placeholder="Name" style="margin:0px 0px 20px 0px;">
+<input type="submit" title="Post" style="width: 100px; height:30px; margin:0px 0px 20px 0px; color: #000000">
+</div>
+    <div id="Dialog1" title="Clustal Omega">
+  <h4>Multiple sequence alignment tool</h4>
+  <p>Multiple sequence alignment tool which uses a progressive algorithm that allows pairwise alignments using ktuple method and then uses that score for guided tree construction </p>
+  <nav class="floatc1">       
+    <h4> Advantages:</h4>
+    <p>1.Most memory efficient</p>
+    <p>2.Good results on Large dataset espcially with long N/C terminals</p>
+    <p>3.Fast algorithm</p>
+    </nav>
+  <nav class="floatc2">
+    <h4>Disadvantages:</h4>
+    <p>1.Errors are not corrected</p> 
+    <p>2.Hard to know if solution is good</p>           
+    </nav>
+  <a href="clustalo.html">Clustalo</a>
+</div>
+   <div id="Dialog2" title="Muscle">
+  		<h4>Multiple sequence alignment tool</h4>
+  <p>Multiple sequence alignment tool which uses an iterative algorithm which involves kimura distance method and UPGMA method to produce guide trees</p>
+   <nav class="floatc1">       
+            <h4> Advantages:</h4>
+            <p>1.No limitations on number of input sequences to be aligned</p>
+            <p>2.Fast and accurate</p>
+        </nav>
+     <nav class="floatc2">
+     		  <h4>Disadvantages:</h4>
+              <p>1.only acceptable format is FASTA</p>
+        </nav>
+            <a href="#">Muscle</a>
+  </div>
+<div id="Dialog3" title="Comparing Clustalo and Muscle">
+  <h4 style=" alignment-adjust: central;">Multiple sequence alignment tools</h4>
+  <nav class="float1">
+  			<h3>Muscle</h3>
+            <p>Iterative Alignment</p>
+            <h4> Advantages:</h4>
+            <p>1.No limitations on number of input sequences to be aligned</p>
+            <p>2.Fast and accurate</p>
+            <h4>Disadvantages:</h4>
+            <p>1.only acceptable format is FASTA</p>
+            <a href="#">Muscle</a>
+        </nav>
+   <nav class="float2">
+   <h3>Clustalw</h3>
+    <p> Progressive Alignment</p>
+    		 <h4> Advantages:</h4>
+            <p>1.Most memory efficient</p>
+            <p>2.Good results on Large dataset espcially with long N/C terminals</p>
+            <p>3.Fast algorithm</p>
+            <h4>Disadvantages:</h4>
+              <p>1.Errors are not corrected</p> 
+ 				<p>2.Hard to know if solution is good</p>
+            <a href="clustalo.html">Clustalo</a>
+        </nav>
+      </div> 
+            
+    </nav>
+   
+   
+  </div>
+  
+  
+  <div class="footer">
+  <div style="float:left; width: 220px; height:100px; margin: 0px 20px 20px 20px;  ">
+    <p style="list-style-type: none;display: block;background-color: #999999; margin: 0px 0px 0px 0px;font-size: 20px;">Services</p>
+    <li><a href="categorybased.html">Comparison by Types</a></li>
+    <li><a href="alltools.html">Comparison by names(A-Z)</a></li>
+    <li><a href="#">Help & Support</a></li>
+
+    </div>
+    <div style="float:left; width: 220px; height:100px; margin: 0px 20px 20px 20px;  ">
+      <p style="list-style-type: none;display: block;background-color: #999999; margin: 0px 0px 0px 0px;font-size: 20px;">Research</p>
+    <li><a href="index.html">Overview</a></li>
+    <li><a href="#">Publications</a></li>
+
+  </div>
+   
+  </div>
+  
+</div>
+
+</body>
+</html>

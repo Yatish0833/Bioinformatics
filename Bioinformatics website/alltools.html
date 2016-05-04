@@ -1,0 +1,251 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+<title>BiLink</title>
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+}
+a:visited {
+	text-decoration: none;
+	color: #666666
+}
+a:active {text-decoration: none}
+a:hover {text-decoration: none}
+-->
+</style>
+<meta name="description" content="Bioinformatics website, gives you information about all the latest tools available for any Bioinformatician">
+<meta name="keywords" content="Bioinformatics, Biotechnology and computer science, online tools for bioinformatics, webservers of bioinformatics, latest trends in Bioinformatics">
+<link href="Images/favicon.png" rel="shortcut icon"/>
+<link href="Style/style.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="js/main.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="jQueryAssets/jquery-ui-1.9.2.dialog.custom.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="container">
+  <div class="header"><img src="Images/header.png" width="950" height="150"  alt="Image not found"/></div>
+  <div class="mainbuttons" >
+  <ul> 
+    <a href="index.html" class="mainbuttons">Overview</a> <a href="aboutus.html">About us</a> <a href="format.html">Format Conversions</a> <a href="workflows.html">Workflows
+    </a> <a href="contactus.html">Contact us </a>
+  </ul>
+  </div>
+  <div style="float:right; width:250px; height:30px;">
+  <input style="padding-top:10px; "name="Search" type="search" id="Search" placeholder="Search" title="Search" size="35">
+  
+  </div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div class="content">
+    <nav class="float">
+    <ul class="annoy">Web Based tools</ul>
+    <h4>A</h4>
+    <li><input type="checkbox"><a href="#">Autodock</a></li>
+    <li><input type="checkbox"><a href="#">Argo genome browser</a></li>
+    <li><input type="checkbox"><a href="#">ArrayExpress</a></li>
+    <h4>B</h4>
+    <li><input type="checkbox"><a href="#">BioGrid</a></li>
+    <li><input type="checkbox"><a href="#">BioCarta</a></li>
+    <li><input type="checkbox"><a href="#">BIND/BOND</a></li>
+    <h4>C</h4>
+    <li><input type="checkbox"><a href="#">Chebi</a></li>
+    <h4>D</h4>
+    <li><input type="checkbox"><a href="#">DAVID</a></li>
+    <li><input type="checkbox"><a href="#">DIP</a></li>
+    <h4>E</h4>
+    <li><input type="checkbox"><a href="#">Ensembl genome browser</a></li>
+    <h4>F</h4>
+    <li><input type="checkbox"><a href="#">FASTA</a></li>
+    <h4>G</h4>
+    <li><input type="checkbox"><a href="#">GeneCards</a></li>
+    <li><input type="checkbox"><a href="#">Galaxy</a></li>
+    <li><input type="checkbox"><a href="#">GO</a></li>
+    <li><input type="checkbox"><a href="#">GenePattern</a></li>
+    <li><input type="checkbox"><a href="#">GenScan</a></li>
+    <h4>H</h4>
+    <li><input type="checkbox"><a href="#">HPRD</a></li>
+    <li><input type="checkbox"><a href="#">HMMER</a></li>
+    <li><input type="checkbox"><a href="#">HUGO</a></li>
+    <h4>K</h4>
+    <li><input type="checkbox"><a href="#">KEGG pathway</a></li>
+    <li><input type="checkbox"><a href="#">KAlign</a></li>
+    <h4>M</h4>
+    <li><input type="checkbox"><a href="#">MEME</a></li>
+    <li><input type="checkbox"><a href="#">MEGA</a></li>
+    <li><input type="checkbox"><a href="#">MIMI</a></li>
+    <h4>N</h4>
+    <li><input type="checkbox"><a href="#">NCBI BLAST</a></li>
+    <h4>P</h4>
+    <li><input type="checkbox"><a href="#">PANTHER</a></li>
+    <li><input type="checkbox"><a href="#">Peptide atlas</a></li>
+    <li><input type="checkbox"><a href="#">PSI search</a></li>
+    <li><input type="checkbox"><a href="#">Phyre2</a></li>
+    <li><input type="checkbox"><a href="#">Primer3</a></li>
+    <li><input type="checkbox"><a href="#">PAML</a></li>
+    <h4>S</h4>
+    <li><input type="checkbox"><a href="#">Snps3D</a></li>
+    <li><input type="checkbox"><a href="#">STRING</a></li>
+    <li><input type="checkbox"><a href="#">Swiss PDB viewer</a></li>
+    <h4>U</h4>
+    <li><input type="checkbox"><a href="#">UCSC genome browser</a></li>
+    <li><input type="checkbox"><a href="#">UniPROT</a></li>
+    
+    </nav>
+    <nav class="floater">
+    <ul class="annoy">Downloadable tools</ul>
+    <h4>A</h4>
+    <li><input type="checkbox"><a href="#">AB-BLAST</a></li>
+    <li><input type="checkbox"><a href="#">Anduril</a></li>
+    <li><input type="checkbox"><a href="#">Align</a></li>
+    <h4>B</h4>
+    <li><input type="checkbox"><a href="#">BFAST</a></li>
+    <li><input type="checkbox"><a href="#">BioPerl</a></li>
+    <li><input type="checkbox"><a href="#">BioPython</a></li>
+    <li><input type="checkbox"><a href="#">BioRuby</a></li>
+    <h4>C</h4>
+    <li><input type="checkbox" id="clustal1">
+      <a id="clustal" href="#">Clustal Omega</a></li>
+    <li><input type="checkbox"><a href="#">Cn3D</a></li>
+    <li><input type="checkbox"><a href="#">Cytoscape</a></li>
+    <h4>D</h4>
+    <li><input type="checkbox"><a href="#">Dapple</a></li>
+    <li><input type="checkbox"><a href="#">Dotlet</a></li>
+    <li><input type="checkbox"><a href="#">Dialign</a></li>
+    <h4>E</h4>
+    <li><input type="checkbox"><a href="#">Emboss</a></li>
+    <h4>F</h4>
+    <li><input type="checkbox"><a href="#">FastQC</a></li>
+    <li><input type="checkbox"><a href="#">FACS</a></li>
+    <h4>G</h4>
+    <li><input type="checkbox"><a href="#">Galaxy</a></li>
+    <li><input type="checkbox"><a href="#">GenePattern</a></li>
+    <li><input type="checkbox"><a href="#">GeWorkbench</a></li>
+    <li><input type="checkbox"><a href="#">Geneious</a></li>
+    <h4>I</h4>
+    <li><input type="checkbox"><a href="#">intAct</a></li>
+     <h4>K</h4>
+    <li><input type="checkbox"><a href="#">Kinemage</a></li>
+    <h4>L</h4>
+    <li><input type="checkbox"><a href="#">Lastz</a></li>
+    <h4>M</h4>
+    <li><input type="checkbox" id="muscle1"><a id="muscle" href="#">Muscle</a></li>
+    <li><input type="checkbox"><a href="#">MAFFT</a></li>
+    <h4>P</h4>
+    <li><input type="checkbox"><a href="#">PHRED</a></li>
+    <li><input type="checkbox"><a href="#">PyMol</a></li>
+    <h4>R</h4>
+    <li><input type="checkbox"><a href="#">R</a></li>
+    <li><input type="checkbox"><a href="#">RasMol</a></li>
+    <h4>S</h4>
+    <li><input type="checkbox"><a href="#">SAM</a></li>
+    <li><input type="checkbox"><a href="#">SOAP</a></li>
+    <li><input type="checkbox"><a href="#">SeqMAP</a></li>
+    <h4>T</h4>
+    <li><input type="checkbox"><a href="#">TCoffee</a></li>
+    <li><input type="checkbox"><a href="#">Treeview</a></li>
+    <li><input type="checkbox"><a href="#">TMHMM</a></li>
+    
+    </nav>
+  <nav class="floater1">  
+    <button id="compare" title="compare" disabled style="float:left; margin: 50px 50px 50px 40px; padding:10px 10px 10px 10px; ">Compare</button>
+
+<div id	="discussion">
+<p>&nbsp;</p>
+  <p>&nbsp;</p>
+<p style=" text-decoration: underline; margin:20px 20px 20px 20px;"> Discussion Board</p>
+<textarea style="width:200px; height:100px;margin:20px 0px 20px 0px;"></textarea>
+<input type="text" placeholder="Name" style="margin:0px 0px 20px 0px;">
+<input type="submit" title="Post" style="width: 100px; height:30px; margin:0px 0px 20px 0px; color: #000000">
+</div>
+    
+  <div id="Dialog1" title="Clustal Omega">
+  <h4>Multiple sequence alignment tool</h4>
+  <p>Multiple sequence alignment tool which uses a progressive algorithm that allows pairwise alignments using ktuple method and then uses that score for guided tree construction </p>
+   <nav class="floatc1">       
+            <h4> Advantages:</h4>
+            <p>1.Most memory efficient</p>
+            <p>2.Good results on Large dataset espcially with long N/C terminals</p>
+            <p>3.Fast algorithm</p>
+     		  </nav>
+     <nav class="floatc2">
+     		  <h4>Disadvantages:</h4>
+              <p>1.Errors are not corrected</p> 
+ 				<p>2.Hard to know if solution is good</p>           
+            </nav>
+            <a href="clustalo.html">Clustalo</a>
+  </div>
+   <div id="Dialog2" title="Muscle">
+  		<h4>Multiple sequence alignment tool</h4>
+  <p>Multiple sequence alignment tool which uses an iterative algorithm which involves kimura distance method and UPGMA method to produce guide trees</p>
+   <nav class="floatc1">       
+            <h4> Advantages:</h4>
+            <p>1.No limitations on number of input sequences to be aligned</p>
+            <p>2.Fast and accurate</p>
+            </nav>
+     <nav class="floatc2">
+     		  <h4>Disadvantages:</h4>
+              <p>1.only acceptable format is FASTA</p>
+            </nav>
+            <a href="#">Muscle</a>
+  </div>
+<div id="Dialog3" title="Comparing ClustalW and Muscle">
+  <h4 style=" alignment-adjust: central;">Multiple sequence alignment tools</h4>
+  <nav class="float1">
+  			<h3>Muscle</h3>
+            <p>Iterative Alignment</p>
+            <h4> Advantages:</h4>
+            <p>1.No limitations on number of input sequences to be aligned</p>
+            <p>2.Fast and accurate</p>
+            <h4>Disadvantages:</h4>
+            <p>1.only acceptable format is FASTA</p>
+            <li><a href="#">Muscle</a></li>
+            </nav>
+   <nav class="float2">
+   <h3>Clustal Omega</h3>
+    <p> Progressive Alignment</p>
+    		 <h4> Advantages:</h4>
+            <p>1.Most memory efficient</p>
+            <p>2.Good results on Large dataset espcially with long N/C terminals</p>
+            <p>3.Fast algorithm</p>
+            <h4>Disadvantages:</h4>
+              <p>1.Errors are not corrected</p> 
+ 				<p>2.Hard to know if solution is good</p>
+            <li><a href="clustalo.html">Clustalo</a></li>
+            </nav>
+            </div> 
+            
+          </nav> 
+  </div>
+</div>
+<div class="footer">
+    <div style="float:left; width: 230px; height:100px; margin: 0px 20px 20px 20px;  ">
+    <p style="list-style-type: none;display: block;background-color: #999999; margin: 0px 0px 0px 0px;font-size: 20px;">Services</p>
+    <li><a href="#">Comparison by Types</a></li>
+    <li><a href="#">Comparison by names(A-Z)</a></li>
+    <li><a href="#">Help & Support</a></li>
+
+    </div>
+    
+    <div style="float:left; width: 220px; height:100px; margin: 0px 20px 20px 20px;  ">
+    <p style="list-style-type: none;display: block;background-color: #999999; margin: 0px 0px 0px 0px;font-size: 20px;">Research</p>
+    <li><a href="#">Overview</a></li>
+    <li><a href="#">Publications</a></li>
+
+    </div>
+   
+  </div>
+  
+</div>
+</body>
+</html>
