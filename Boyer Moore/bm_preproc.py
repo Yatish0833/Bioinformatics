@@ -2,7 +2,7 @@
 
 """bm_preproc.py: Boyer-Moore preprocessing."""
 
-__author__ = "Ben Langmead"
+__author__ = "courseEra week2"
 
 import unittest
 
